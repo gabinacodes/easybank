@@ -160,6 +160,12 @@ h4.text {
     margin-left: 22px;
 
 }
+.btn {
+    margin: 24px;
+    padding: 4% 16%;
+    margin-left: 22px;
+    margin-top: 26%;
+}
 .wrap2 {
     display: flex;
     margin-top: 7%;
