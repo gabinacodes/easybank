@@ -27,6 +27,9 @@
         
     }
     .div-one{
+        display: none;
+    }
+    #div-one{
             display: none;
             display: block;
             position: absolute;
@@ -34,9 +37,9 @@
             background-color: white;
             border: 2px solid white;
             border-radius: 20px;
-            width: 179px;
+            width: 99%;
             text-align: center;
-            left: 60%;
+            left: 0%;
         
 
     }
