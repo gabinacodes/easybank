@@ -7,8 +7,8 @@
 
     }
     p  {
-        line-height: 30px;
-        font-size: 15px;
+        line-height: 25px;
+        font-size: 14px;
     }
     h2 {
         font-size: 23px;
@@ -17,7 +17,7 @@
         width: 5%;
     }
     .paragraph {
-        margin: 24px 24px -14px;
+        margin: 24px 0px -14px;
     }
     .list{
         display: block;
@@ -25,6 +25,10 @@
     #img{
         display: block;
         
+    }
+    p.para {
+        padding: 2%;
+        margin-top: 15px;
     }
     .div-one{
         display: none;
@@ -58,17 +62,24 @@
     }
     .hamburger{
         display: inline;
+        margin-right: 4%;
     }
    .wrap-box{
        flex-direction: column-reverse;
        align-items: center;
 
    }
-   
-   .cast{
-       padding: 14px;
-       width: 88%;
-   }
+   .article {
+    margin-left: 7%;
+    margin-bottom: 6%;
+    margin-top: 24%;
+}
+   .cast {
+    padding: 14px;
+    width: 88%;
+    padding-top: 0;
+    line-height: 24px;
+}
    .logo {
     margin-left: 4%;
 }
@@ -115,13 +126,40 @@
     padding-left: 9%;
     width: 80%;
  }
-    .btn-wrap{
-        text-align: center;
-    }
-    .wrap2{
-        display: block;
-        text-align: center;
-    }
+ .btn-wrap {
+    text-align: center;
+    margin-bottom: 40%;
+    margin-top: 2%;
+}
+
+img.online {
+    text-align: center;
+    margin: 0 20%;
+    margin-bottom: -2%;
+}
+.banking {
+    margin: 2%;
+    padding: 0 3% 14% 0%;
+}
+
+.budgeting{
+        margin: 2%;
+        padding: 0 3% 14% 0%;
+}
+.onboarding{
+    margin: 2%;
+    padding: 0 3% 14% 0%;
+}
+.api{
+    margin: 2%;
+    padding: 0 3% 14% 0%;
+    margin-bottom: 15%;
+}
+.wrap2 {
+    display: block;
+    text-align: center;
+    margin-top: 20%;
+}
     .wrap1 {
         margin: 2% 2% 2% 2%;
         padding: 0 1% 0 0;

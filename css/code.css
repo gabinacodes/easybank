@@ -13,7 +13,7 @@ p{
 }
 header {
     display: flex;
-    justify-content: space-around;
+   
     border: 2px solid white;
     box-shadow: 2px 2px #afafaf;
     padding: 17px 0px;
@@ -33,10 +33,11 @@ img.online {
 p.p2 {
     padding: 2%;
 }
-.div-one{
- display: flex;
+.div-one {
+    display: flex;
     justify-content: space-around;
-    padding: 0
+    padding: 0;
+    margin-left: 35%;
 }
 .list{
     margin: 0px 14px;
@@ -46,7 +47,7 @@ p.p2 {
     line-height: 2;
 }
 .logo {
-    margin-left: -2%;
+    margin-left: 7%;
 }
 
 button{
@@ -71,6 +72,11 @@ button{
         padding-left: 9%;
     
 }
+.btn1 {
+    margin-left: 4%;
+}
+
+
 .wrap3 {
     display: flex;
     justify-content: space-evenly;
