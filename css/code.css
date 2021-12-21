@@ -38,7 +38,7 @@ img.online {
     line-height: 2;
 }
 .logo {
-    margin-left: -6%;
+    margin-left: 0%;
 }
 
 button{
@@ -60,7 +60,7 @@ button{
     
         padding-top: 20%;
         width: 50%;
-        padding-left: 3%;
+        padding-left: 12%;
     
 }
 .wrap3 {
@@ -80,15 +80,34 @@ button{
     width: 93%;
 }
 .article {
-    margin-left: 4%;
+    margin-left: 7%;
     margin-bottom: 6%;
 }
+.wra {
+    margin: 0 3%;
+}
 .img-wrap {
-    margin-left: -4%;
+    margin-left: -1%;
 }
 img.confetti {
     width: 219px;
     margin: 0%;
+}
+p.para {
+    padding: 2%;
+    margin-top: 23px;
+}
+p.p2 {
+    padding: 2%;
+}
+h6.author {
+    padding: 2%;
+}
+h4.text {
+    padding: 4%;
+}
+p.wrld {
+    padding: 0 6%;
 }
 
 .onboarding {
@@ -131,7 +150,7 @@ img.confetti {
 .wrap2 {
     display: flex;
     margin-top: 7%;
-    margin-left: -1%;
+    margin-left: 3%;
 }
 .wrapper{
     height: 100vh;
@@ -147,7 +166,7 @@ img.confetti {
    padding:2%; 
 }
 .wrap1{
-    margin: 3% 4% 9% 1%;
+    margin: 3% 4% 9% 5%;
     padding: 0 49% 0 0;
 }
 .h2{
