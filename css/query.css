@@ -66,8 +66,12 @@
    }
    
    .cast{
-       padding-left: 14px;
+       padding: 14px;
+       width: 88%;
    }
+   .logo {
+    margin-left: 4%;
+}
    .sen {
     background-color: #f9f9f9;
  }
@@ -76,7 +80,8 @@
     margin: 0%;
     border-top-left-radius: 8%;
     border-top-right-radius: 8%;
-    width: 100%;
+    width: 90%;
+    margin-top: 23px;
  }
    .wrap3{
        display: block;
@@ -101,10 +106,14 @@
 .wrap4{
     display: block;
 }
+.choplife{
+    width: 98%;
+}
 .sub-wrap {
     padding-top: 7%;
     padding-right: 7%;
     padding-left: 9%;
+    width: 80%;
  }
     .btn-wrap{
         text-align: center;

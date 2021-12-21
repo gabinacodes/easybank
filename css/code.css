@@ -2,8 +2,11 @@
     margin: 0%;
     padding: 0%;
     font-family: 'public Sans';
+   
 }
-
+#div-one{
+    display: none;
+}
 header {
     display: flex;
     justify-content: space-around;
@@ -18,7 +21,10 @@ header {
 #img{
     display:none;
 }
-
+img.online {
+    text-align: center;
+    margin: 0 20%;
+}
 .div-one{
  display: flex;
     justify-content: space-around;
@@ -26,7 +32,15 @@ header {
 }
 .list{
     margin: 0px 14px;
+    line-height: 2;
 }
+.li{
+    line-height: 2;
+}
+.logo {
+    margin-left: -6%;
+}
+
 button{
 
     border: 2px solid rgba(255, 255, 255, 0);
@@ -44,13 +58,14 @@ button{
 }
 .sub-wrap{
     
-        padding-top: 7%;
-        padding-right: 32%;
-        padding-left: 6%;
+        padding-top: 20%;
+        width: 50%;
+        padding-left: 3%;
     
 }
 .wrap3 {
     display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -59,12 +74,17 @@ button{
     border: 2px solid white ;
     border-radius: 20px;
     background-color: white;
+    width: 20%;
 }
 .cast {
-    width: 95%;
+    width: 93%;
 }
 .article {
-    margin-left: 8%;
+    margin-left: 4%;
+    margin-bottom: 6%;
+}
+.img-wrap {
+    margin-left: -4%;
 }
 img.confetti {
     width: 219px;
@@ -104,12 +124,14 @@ img.confetti {
 }
 .btn{
     margin: 24px;
+    padding: 4% 16%;
+    margin-left: 22px;
 
 }
 .wrap2 {
     display: flex;
     margin-top: 7%;
-    margin-left: 5%;
+    margin-left: -1%;
 }
 .wrapper{
     height: 100vh;
@@ -125,7 +147,7 @@ img.confetti {
    padding:2%; 
 }
 .wrap1{
-    margin: 3% 4% 2% 5%;
+    margin: 3% 4% 9% 1%;
     padding: 0 49% 0 0;
 }
 .h2{
@@ -135,7 +157,7 @@ img.confetti {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 13px 0 13px 0px;
+    padding: 63px 0px;
     margin-top: 4%;
 }
 .footer{
