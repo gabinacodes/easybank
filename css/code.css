@@ -5,6 +5,9 @@
    
    
 }
+button{
+    position: relative;
+}
 p{
     line-height: 29px;
 }
@@ -217,4 +220,8 @@ img.confetti {
 }
 .hamburger{
        display: none;
+}
+
+button:hover{
+       background-color:purple ;
    }

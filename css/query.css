@@ -9,6 +9,9 @@
         line-height: 25px;
         font-size: 14px;
     }
+    img.icon {
+        margin: 2%;
+    }
     h2 {
         font-size: 23px;
     }
@@ -50,9 +53,11 @@
         
 
     }
-    #img{
-       position:relative;
-       left: 30% 
+    #img {
+        position: absolute;
+        left: 84%;
+        top: -53px;
+        width: 13%;
     }
     
     
